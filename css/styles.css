@@ -1,0 +1,328 @@
+body {
+  margin: 0;
+  background-color: var(--color-white);
+}
+
+.nav-bar {
+  background-color: var(--color-white);
+  display: flex;
+}
+
+.menu-hamburguer {
+  margin: 25px;
+}
+
+.option {
+  width: 24px;
+  height: 4px;
+  background-color: var(--color-gray);
+  margin: 6px;
+}
+
+.menu {
+  width: 292px;
+}
+#search {
+  width: 20px;
+  margin: 5px;
+  left: 285px;
+  position: absolute;
+  top: 30px;
+}
+
+#icon {
+  width: 25px;
+  margin: 5px;
+  left: 333px;
+  position: absolute;
+  top: 28px;
+}
+
+.iconchat {
+  width: 30px;
+  margin: 30px;
+  display: none;
+}
+
+#iconprofile {
+  display: none;
+}
+
+.chat-friends {
+  background-color: var(--color-white);
+  width: 375px;
+  height: 850px;
+}
+
+.chats {
+  margin: 20px;
+  background-color: var(--color-white);
+  color: var(--color-gray);
+  border-bottom: 1px solid var(--color-gray);
+}
+
+#chatprofile {
+  width: 48px;
+  border-radius: 50%;
+}
+
+#friend {
+  width: 48px;
+  margin: 20px;
+  border-radius: 50px;
+}
+
+.myfriend {
+  position: absolute;
+  left: 480px;
+  top: 36px;
+  font-size: 20px;
+}
+
+.mainchat {
+  width: 900px;
+}
+
+.icons-mainchat {
+  display: flex;
+  position: absolute;
+  right: 0px;
+  top: 20px;
+}
+
+.talk {
+  width: 30px;
+  height: 33px;
+  margin: 15px;
+}
+
+.chat-friend {
+  background-color: var(--color-insignia-white);
+  width: 900px;
+}
+
+.namefriend {
+  margin: 10px;
+  position: absolute;
+}
+
+.interface-chats {
+  display: flex;
+  font-family: Lato;
+  font-size: 14px;
+}
+
+.ana-talks {
+  background-color: var(--color-turquoise);
+  position: absolute;
+  right: 20px;
+  top: 140px;
+  border-radius: 20px;
+  margin: 40px;
+  color: var(--color-white);
+  font-weight: 400;
+}
+
+.ana-talks-2 {
+  background-color: var(--color-turquoise);
+  width: 350px;
+  position: absolute;
+  right: 20px;
+  top: 340px;
+  border-radius: 20px;
+  margin: 39px;
+  color: var(--color-white);
+}
+
+.ana-talks-3 {
+  background-color: var(--color-turquoise);
+  width: 200px;
+  position: absolute;
+  right: 20px;
+  top: 540px;
+  border-radius: 20px;
+  margin: 39px;
+  color: var(--color-white);
+}
+
+#avatar-ana1 {
+  width: 40px;
+  position: absolute;
+  right: 12px;
+  border-radius: 20px;
+  top: 185px;
+}
+
+#avatar-ana2 {
+  width: 40px;
+  position: absolute;
+  right: 12px;
+  border-radius: 20px;
+  top: 385px;
+}
+
+#avatar-ana3 {
+  width: 40px;
+  position: absolute;
+  right: 12px;
+  border-radius: 20px;
+  top: 585px;
+}
+
+.iconmessage {
+  width: 40px;
+}
+
+.message {
+  margin: 15px;
+}
+
+.mike-talks {
+  background-color: var(--color-weathered-blue);
+  width: 390px;
+  position: absolute;
+  left: 426px;
+  top: 240px;
+  border-radius: 20px;
+  color: var(--color-gray);
+}
+
+.mike-talks-2 {
+  background-color: var(--color-weathered-blue);
+  width: 102px;
+  position: absolute;
+  left: 426px;
+  top: 640px;
+  border-radius: 20px;
+  color: var(--color-gray);
+}
+
+.mike-talks-3 {
+  background-color: var(--color-weathered-blue);
+  width: 380px;
+  position: absolute;
+  left: 426px;
+  top: 440px;
+  border-radius: 20px;
+  color: var(--color-gray);
+}
+
+#avatar-mike1 {
+  width: 40px;
+  position: absolute;
+  bottom: 600px;
+  margin: 6px;
+  border-radius: 20px;
+}
+
+#avatar-mike2 {
+  width: 40px;
+  position: absolute;
+  top: 450px;
+  margin: 6px;
+  border-radius: 20px;
+}
+
+#avatar-mike3 {
+  width: 40px;
+  position: absolute;
+  top: 640px;
+  margin: 6px;
+  border-radius: 20px;
+}
+
+.send-message {
+  bottom: 10px;
+  position: absolute;
+  left: 400px;
+  background-color: var(--color-white);
+  width: 840px;
+  height: 70px;
+  display: flex;
+  border-radius: 50px;
+}
+
+.iconmessage {
+  width: 25px;
+  margin: 10px;
+}
+
+.message-area {
+  width: 680px;
+  height: 40px;
+  border-radius: 50px;
+  border-style: none;
+  background-color: var(--color-insignia-white);
+  margin: 15px;
+  font-size: 15px;
+}
+
+.btn-send {
+  width: 40px;
+  height: 30px;
+  margin: 20px;
+  border-radius: 20px;
+}
+
+@media screen and (max-width: 375px) {
+  .nav-bar {
+    display: flex;
+  }
+
+  .menu-hamburguer {
+    margin: 10px;
+    display: none;
+  }
+
+  .menu {
+    width: 400px;
+    background-color: var(--color-dark-blue);
+  }
+
+  .images-menu {
+    display: none;
+  }
+
+  .iconchat {
+    display: initial;
+  }
+
+  #icon {
+    width: 40px;
+    margin: 5px;
+    left: 270px;
+    position: absolute;
+    top: 20px;
+  }
+
+  #iconprofile {
+    display: initial;
+    width: 48px;
+    margin: 20px;
+    border-radius: 50px;
+  }
+
+  .mainchat {
+    display: none;
+  }
+
+  .chat-friend {
+    display: none;
+  }
+
+  .chat-friends {
+    background-color: var(--color-dark-blue);
+  }
+
+  .namefriend {
+    color: var(--color-white);
+  }
+
+  .messagefriend {
+    color: var(--color-white);
+  }
+
+  .chats {
+    background-color: var(--color-dark-blue);
+  }
+}

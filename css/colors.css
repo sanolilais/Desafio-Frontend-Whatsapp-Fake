@@ -1,0 +1,8 @@
+:root {
+  --color-dark-blue: hsl(205, 26%, 13%);
+  --color-white: hsl(0, 0%, 100%);
+  --color-gray: rgb(77, 76, 76);
+  --color-insignia-white: hsl(200, 50%, 95%);
+  --color-turquoise: hsl(179, 65%, 45%);
+  --color-weathered-blue: hsl(213, 57%, 90%);
+}
